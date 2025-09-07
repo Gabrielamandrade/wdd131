@@ -44,6 +44,11 @@ nav li {
 
 }
 
+heading {
+    background-color: rgb(10, 49, 10);
+    color: aliceblue;
+}
+
 footer {
     background-color: blanchedalmond;
     grid-column: 1 / 4;
