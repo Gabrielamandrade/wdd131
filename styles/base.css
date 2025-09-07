@@ -18,3 +18,10 @@ main {
     padding: o;
 }
 
+h1 .course-title {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
