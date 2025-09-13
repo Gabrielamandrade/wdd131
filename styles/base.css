@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: blanchedalmond;
+    background-color: rgb(157, 185, 235);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     grid-column: 1 / 4;
     padding: 0;
@@ -16,9 +16,8 @@ header {
 
 h1 {
     text-align: center;
-    background-color: rgb(10, 49, 10);
-    color: aliceblue;
     grid-column: 1 / 4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -28,24 +27,32 @@ h1 .course-title {
 
 main{
     display: grid;
-    background-color: rgb(233, 247, 195);
-    grid-column: 1 / 4;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+    border-radius: 0%;
+    font-family: cursive;
 }
 
 
 .card{
-  background-color: rgb(10, 49, 10);
-  color: aliceblue;
+  background-color: rgb(136, 168, 240);
+  color: rgb(10, 13, 15);
   padding: 1.5rem;
   margin-bottom: 2rem;
+  margin-left: 20px;
   border-radius: 6px;
+  text-align: center;
+  
   
 }
 
 .card h2 { 
     text-align: center;
+    background-color: rgb(67, 125, 169);
+    color: rgb(255, 240, 168);
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+
 }
 
 footer {
@@ -80,7 +87,7 @@ nav a {
     display: block;
     text-decoration: none;   
     padding: 1rem;
-    color: aliceblue;
+    color: rgb(233, 247, 195);
     text-align: center;
 }
 
