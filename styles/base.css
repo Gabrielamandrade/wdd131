@@ -25,7 +25,9 @@ header {
  section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr 1fr 1fr
+    grid-template-rows:  1fr 1fr 1fr;
+    color: #133f13;
+    font-family: "Comic Relief", system-ui;
  }
  
  img {
